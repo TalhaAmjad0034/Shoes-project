@@ -13,7 +13,6 @@
   position: relative;
   opacity: 0;
   transition: 1.5s ease;
-  padding-top: 9%;
 }
 .slider.active {
   opacity: 1;
