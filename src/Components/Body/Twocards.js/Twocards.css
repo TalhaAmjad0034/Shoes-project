@@ -1,0 +1,86 @@
+.twocards {
+}
+.twocards-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: url("../../../assets/pattern-bg.png"), var(--color-brighter);
+}
+.img-1 {
+  width: 50%;
+
+  z-index: 0;
+}
+.img-1 img {
+  width: 130%;
+  object-fit: cover;
+  height: 100%;
+}
+.content-1 {
+  padding: 8%;
+  width: 44%;
+  transform: skew(-20deg, 0deg);
+  background: url("../../../assets/pattern-bg.png"), var(--color-brighter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unskew {
+  transform: skew(20deg, 0deg);
+}
+.twocards-1.order {
+  background: url("../../../assets/pattern-bg.png"), var(--color-semi--darker);
+}
+.img-1.order {
+  order: 2;
+}
+.img-1.order img {
+  width: 120%;
+  margin-left: -20%;
+}
+.content-1.order {
+  order: 1;
+  z-index: 2;
+  transform: skew(20deg, 0deg);
+  background: url("../../../assets/pattern-bg.png"), var(--color-semi--darker);
+  width: 48%;
+}
+
+.unskew.order {
+  transform: skew(-20deg, 0deg);
+}
+
+@media screen and (max-width: 450px) {
+  .twocards-1 {
+    flex-direction: column;
+  }
+  .img-1 {
+    width: 100%;
+  }
+  .img-1 img {
+    width: 100%;
+  }
+  .content-1 {
+    padding: 8%;
+    width: 100%;
+    transform: skew(0deg, 0deg);
+  }
+  .unskew {
+    transform: skew(0deg, 0deg);
+  }
+  .img-1.order {
+    order: 1;
+  }
+  .img-1.order img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .content-1.order {
+    order: 2;
+    transform: skew(0deg, 0deg);
+    width: 100%;
+  }
+  .unskew.order {
+    transform: skew(0deg, 0deg);
+  }
+}

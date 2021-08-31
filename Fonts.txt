@@ -1,0 +1,8 @@
+Osward Demibold
+MontserratAlternates Bold
+Roboto Medium
+
+
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;

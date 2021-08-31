@@ -1,0 +1,53 @@
+.section {
+  display: flex;
+  padding: 5rem 3%;
+  gap: 5%;
+}
+.section_content {
+  width: 70%;
+  display: flex;
+}
+.num {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-brighter);
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: var(--font-oswald);
+}
+.section_events {
+  width: 30%;
+  background-color: var(--color-brighter-o);
+  height: max-content;
+}
+.section_content-imgs {
+  overflow: hidden;
+}
+.after-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.after-btn h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid var(--color-champs-p);
+}
+.after-btn p {
+  margin-top: 0.3rem;
+}
+@media screen and (max-width: 450px) {
+  .section {
+    flex-direction: column;
+  }
+  .section_content {
+    width: 100%;
+  }
+  .section_events {
+    width: 100%;
+  }
+}

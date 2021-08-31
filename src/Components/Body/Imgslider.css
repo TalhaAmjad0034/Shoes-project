@@ -1,0 +1,32 @@
+.Imgslider {
+  overflow: hidden;
+}
+.owl-dots {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.owl-dot {
+  background-color: rgb(168, 168, 168) !important;
+  width: 1.5rem !important;
+  height: 0.5rem !important;
+  margin: 5px !important;
+  display: inline-block !important;
+}
+.owl-dot.active {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 60px !important;
+}
+.owl-next {
+  right: 1%;
+}
+.owl-left {
+  left: 1%;
+}
